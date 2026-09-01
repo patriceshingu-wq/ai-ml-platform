@@ -59,10 +59,7 @@ time to time). To pull in updates:
   `zero-2-ai-systems-engineer` folder — it adds an `upstream` remote
   pointing at the instructor's repo (if not already present), fetches,
   merges into `main`, and pushes the result back to the fork.
-- That script currently lives on branch
-  `claude/chapter-04-discussion-iki9th` in that repo (a session-specific
-  dev branch), not yet on `main` there — copy it over or merge it in when
-  convenient.
+- That script lives on `main` in that repo.
 
 ## Quick facts worth remembering
 
