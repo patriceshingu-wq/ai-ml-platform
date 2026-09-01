@@ -43,3 +43,13 @@ Thumbs.db
 # MLflow / local experiment outputs
 mlruns/
 mlartifacts/
+
+# Chapter 04 runtime artifacts
+04-mlflow/mlflow.db
+04-mlflow/data/
+
+# Credentials -- never commit these
+private_key*
+*.pem
+id_rsa*
+id_ed25519*
