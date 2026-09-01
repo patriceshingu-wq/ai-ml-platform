@@ -47,6 +47,23 @@ readmission, streaming churn).
 - I'm on **Windows**, using **Git Bash (MINGW64)** as my terminal, VS Code
   as my editor.
 
+## Keeping the instructor repo up to date
+
+`zero-2-ai-systems-engineer` is a real GitHub fork of
+`Here2ServeU/zero-2-ai-systems-engineer` (the instructor updates it from
+time to time). To pull in updates:
+
+- **Easiest**: on GitHub, open the fork → click **Sync fork** → **Update
+  branch**, then `git pull origin main` locally.
+- **From the terminal**: run `scripts/sync-upstream.sh` from inside the
+  `zero-2-ai-systems-engineer` folder — it adds an `upstream` remote
+  pointing at the instructor's repo (if not already present), fetches,
+  merges into `main`, and pushes the result back to the fork.
+- That script currently lives on branch
+  `claude/chapter-04-discussion-iki9th` in that repo (a session-specific
+  dev branch), not yet on `main` there — copy it over or merge it in when
+  convenient.
+
 ## Quick facts worth remembering
 
 - `04-mlflow/data/*.csv` and `04-mlflow/mlflow.db` are gitignored —
